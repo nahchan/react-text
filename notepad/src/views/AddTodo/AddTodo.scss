@@ -1,0 +1,15 @@
+.add-todo {
+    width: 100%;
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .editor {
+        height: 200px;
+    }
+}

@@ -1,0 +1,44 @@
+.note {
+    width: 100%;
+    
+
+    .note-list {
+        margin-top: 20px;
+
+
+
+        .list-item {
+            border-radius: 12px;
+            height: 80px;
+           box-shadow: 2px 3px 5px 3px #efefef;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            justify-content: space-around;
+            position: relative;
+
+            .text {
+                height: 40px;
+                font-size: 1.1rem;
+                overflow: hidden;
+                font-weight: 600;
+            }
+
+            .date {
+                color: #adacac;
+                height: 20px;
+            }
+
+            .delete {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .actived {
+            background-color: pink;
+        }
+    }
+}
